@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Scenarios" duration-ms="54798" started-at="2018-02-17T01:03:44Z" finished-at="2018-02-17T01:04:39Z">
+    <groups>
+    </groups>
+    <test name="KeyWordDriven testing" duration-ms="19391" started-at="2018-02-17T01:03:44Z" finished-at="2018-02-17T01:04:04Z">
+      <class name="com.KeyWord.NewToursLogInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.KeyWord.NewToursLogInTest@7823a2f9]" name="setUp" is-config="true" duration-ms="13389" started-at="2018-02-17T06:33:44Z" finished-at="2018-02-17T06:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:com.KeyWord.NewToursLogInTest@7823a2f9]" name="LogIn" duration-ms="5960" started-at="2018-02-17T06:33:58Z" finished-at="2018-02-17T06:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.KeyWord.NewToursLogInTest@7823a2f9]" name="tearDown" is-config="true" duration-ms="30" started-at="2018-02-17T06:34:04Z" finished-at="2018-02-17T06:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.KeyWord.NewToursLogInTest -->
+    </test> <!-- KeyWordDriven testing -->
+    <test name="POM testing" duration-ms="49826" started-at="2018-02-17T01:03:44Z" finished-at="2018-02-17T01:04:34Z">
+      <class name="com.POM.NewToursHomePageTesting">
+        <test-method status="PASS" signature="HomePageTesting()[pri:0, instance:com.POM.NewToursHomePageTesting@8bd1b6a]" name="HomePageTesting" duration-ms="49806" started-at="2018-02-17T06:33:44Z" finished-at="2018-02-17T06:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTesting -->
+      </class> <!-- com.POM.NewToursHomePageTesting -->
+    </test> <!-- POM testing -->
+    <test name="DataDriven testing" duration-ms="54798" started-at="2018-02-17T01:03:44Z" finished-at="2018-02-17T01:04:39Z">
+      <class name="com.DataDriven.NewUserRegistration_ExcelTestData">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.DataDriven.NewUserRegistration_ExcelTestData@2ef5e5e3]" name="setUp" is-config="true" duration-ms="25021" started-at="2018-02-17T06:33:44Z" finished-at="2018-02-17T06:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Register()[pri:1, instance:com.DataDriven.NewUserRegistration_ExcelTestData@2ef5e5e3]" name="Register" duration-ms="11541" started-at="2018-02-17T06:34:09Z" finished-at="2018-02-17T06:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="NewUserRegistration()[pri:2, instance:com.DataDriven.NewUserRegistration_ExcelTestData@2ef5e5e3]" name="NewUserRegistration" duration-ms="17320" started-at="2018-02-17T06:34:21Z" finished-at="2018-02-17T06:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewUserRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DataDriven.NewUserRegistration_ExcelTestData@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="890" started-at="2018-02-17T06:34:38Z" finished-at="2018-02-17T06:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DataDriven.NewUserRegistration_ExcelTestData -->
+    </test> <!-- DataDriven testing -->
+  </suite> <!-- Testing Scenarios -->
+</testng-results>

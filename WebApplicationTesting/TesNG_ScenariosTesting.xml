@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Testing Scenarios" parallel="tests">
+
+<test name="DataDriven testing">
+    <classes>
+      <class name="com.DataDriven.NewUserRegistration_ExcelTestData"/>
+    </classes>
+  </test> <!-- Default test -->
+
+
+  <test name="KeyWordDriven testing">
+    <classes>
+      <class name="com.KeyWord.NewToursLogInTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="POM testing">
+    <classes>
+      <class name="com.POM.NewToursHomePageTesting"/>
+    </classes>
+  </test>
+  
+</suite> <!-- Default suite -->
